@@ -1,0 +1,9 @@
+Package: RcppArmadillo
+Version: 0.4.650.2.0
+Imports: Rcpp (>= 0.11.0)
+LinkingTo: Rcpp
+Suggests: RUnit, Matrix, pkgKitten
+License: GPL (>= 2)
+MD5sum: 25a2458792253519c3c55a52eeabd7f1
+NeedsCompilation: yes
+
