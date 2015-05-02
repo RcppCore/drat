@@ -1,9 +1,79 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-15">
-<title></title>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-15">
+  <title>drat</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.min.css" rel="stylesheet"> <!-- FontAwesome -->
 </head>
 <body>
+  <div class="jumbotron">
+    <div class="container">
+      <h2>RcppCore/drat: The GitHub R Repository for Rcpp</h2>
+    </div>
+  </div><!-- /.umbotron -->
+  <div class="row"> &nbsp; </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-5">
+        
+        <h4>About</h4>
+
+        This <a href="http://dirk.eddelbuettel.com/code/drat.html">drat</a>
+        repository provides pre-releases and test builds for Rcpp and related
+        packages.
+
+        <p></p>
+
+        <h4>Current Content</h4>
+
+        Please <a href="https://github.com/RcppCore/drat/tree/gh-pages/src/contrib">see here</a> for <strong>source</strong> packages currently in the ghrr repo, and 
+        <a href="https://github.com/RcppCore/drat/tree/gh-pages/bin/windows/contrib/3.2b">see here</a> for Windows binaries for R 3.2.*.
+        
+        <h4>Setup</h4>
+        
+        Simply install the <a href="http://cran.rstudio.com/package=drat">drat CRAN package</a>
+        the  usual way via <code>install.packages("drat", repos="http://cran.rstudio.com")</code>.
+
+        <p></p>
+        Add one line to your <code>.Rprofile</code> file (or to <code>Rprofile.site</code>):<br>
+        <blockquote>
+        <code>drat:::add("RcppCore")</code></br>
+        </blockquote>
+        
+        <p></p>
+        That's it! Now use <code>install.packages()</code> or
+        <code>update.packages()</code> and the ghrr will be considered
+        just like the standard repositories for R.
+
+        <p></p>
+
+        <h4>More</h4>
+        
+        You can learn more about <a href="http://dirk.eddelbuettel.com/code/drat.html">drat</a> from the vignettes
+        <a href="http://eddelbuettel.github.io/DratForPackageUsers.html">Drat for Package Users</a> and
+        <a href="http://eddelbuettel.github.io/DratForPackageAuthors.html">Drat for Package Authors</a>.
+      </div>
+      <div class="col-md-6">
+        <center>
+        <img src="https://avatars3.githubusercontent.com/u/11597821?v=3&amp;s=400"  />
+        </center>
+      </div>
+    </div>
+   </div>
+   <div class="row"> &nbsp; </div>
+   <footer class="footer">
+     <div class="container">
+       <a href="http://twitter.com/eddelbuettel"><i class="icon-twitter"></i></a>
+       <a href="https://plus.google.com/+DirkEddelbuettel"><i class="icon-google-plus"></i></a>
+       <a href="https://github.com/eddelbuettel"><i class="icon-github"></i></a>
+       <!-- <a href="http://stackoverflow.com/users/143305/dirk-eddelbuettel"><i class="icon-stackexchange"></i></a> -->
+       <a href="http://www.linkedin.com/in/dirkeddelbuettel/"><i class="icon-linkedin"></i></a>
+       <a href="http://dirk.eddelbuettel.com"><i class="icon-home"></i>
+       <a href="http://dirk.eddelbuettel.com/blog/index.rss"><i class="icon-rss"></i></a>
+     </div>
+   </footer>
 </body>
 </html>
