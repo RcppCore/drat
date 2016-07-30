@@ -8,11 +8,11 @@ MD5sum: 2a6cad1b65b20d25d0a2f184b7ee7a8b
 NeedsCompilation: yes
 
 Package: RcppArmadillo
-Version: 0.6.000.1.0
+Version: 0.7.300.1.0
 Imports: Rcpp (>= 0.11.0), stats, utils
 LinkingTo: Rcpp
 Suggests: RUnit, Matrix, pkgKitten
 License: GPL (>= 2)
-MD5sum: 9021e3d05a44d0b3454e2d1baff5827f
+MD5sum: 187d625b9417e2b089f6c2d0ea5140af
 NeedsCompilation: yes
 
