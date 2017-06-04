@@ -1,10 +1,10 @@
 Package: Rcpp
-Version: 0.12.8.2
+Version: 0.12.11.2
 Depends: R (>= 3.0.0)
 Imports: methods, utils
 Suggests: RUnit, inline, rbenchmark, highlight, pkgKitten (>= 0.1.2)
 License: GPL (>= 2)
-MD5sum: 861b311e2d023eeccc4ae7bc7796549e
+MD5sum: f4d761c5dd61305f104aa9ee98418bd8
 NeedsCompilation: yes
 
 Package: RcppArmadillo
