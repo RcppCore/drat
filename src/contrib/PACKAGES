@@ -8,10 +8,10 @@ MD5sum: fb673bfd9a7ea2eb594b706769011b79
 NeedsCompilation: yes
 
 Package: RcppArmadillo
-Version: 0.8.100.1.0
+Version: 0.8.200.1.0
 Imports: Rcpp (>= 0.11.0), stats, utils, methods
 LinkingTo: Rcpp
 Suggests: RUnit, Matrix, pkgKitten, reticulate, rmarkdown, knitr, pinp
 License: GPL (>= 2)
-MD5sum: fc68ff3e702160866d1dfbccf640a923
+MD5sum: 5c2cceda8da1f364b5f4aa5128c1e7bc
 NeedsCompilation: yes
