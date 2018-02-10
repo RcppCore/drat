@@ -2,17 +2,16 @@ Package: Rcpp
 Version: 0.12.13.2
 Depends: R (>= 3.0.0)
 Imports: methods, utils
-Suggests: RUnit, inline, rbenchmark, knitr, rmarkdown, pinp, pkgKitten
-        (>= 0.1.2)
+Suggests: RUnit, inline, rbenchmark, knitr, rmarkdown, pinp, pkgKitten (>= 0.1.2)
 License: GPL (>= 2)
 MD5sum: 18e6dbd210f5b72450890a57542f0916
 NeedsCompilation: yes
 
 Package: RcppArmadillo
-Version: 0.8.300.0.0
+Version: 0.8.399.0.0
 Imports: Rcpp (>= 0.11.0), stats, utils, methods
 LinkingTo: Rcpp
 Suggests: RUnit, Matrix, pkgKitten, reticulate, rmarkdown, knitr, pinp
 License: GPL (>= 2)
-MD5sum: a40f782f40ef3eaa8b2e367a676d7aa4
+MD5sum: ac8e89b872ade1b538e447dcd82b174f
 NeedsCompilation: yes
