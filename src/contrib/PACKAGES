@@ -15,3 +15,12 @@ Suggests: RUnit, Matrix, pkgKitten, reticulate, rmarkdown, knitr, pinp
 License: GPL (>= 2)
 MD5sum: ac8e89b872ade1b538e447dcd82b174f
 NeedsCompilation: yes
+
+Package: RcppParallel
+Version: 4.4.0
+Depends: R (>= 3.0.2)
+LinkingTo: BH (>= 1.60.0-1)
+Suggests: Rcpp, RUnit, knitr, rmarkdown
+License: GPL-2
+MD5sum: b5d58706d67ca698f33218e55401c559
+NeedsCompilation: yes
