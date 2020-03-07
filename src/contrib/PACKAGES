@@ -1,8 +1,8 @@
 Package: Rcpp
-Version: 1.0.2
+Version: 1.0.3.8
 Depends: R (>= 3.0.0)
 Imports: methods, utils
-Suggests: RUnit, inline, rbenchmark, knitr, rmarkdown, pinp, pkgKitten (>= 0.1.2)
+Suggests: tinytest, inline, rbenchmark, pkgKitten (>= 0.1.2)
 License: GPL (>= 2)
-MD5sum: a83a45939b60b33dc8091e6e0f56b6f8
+MD5sum: e856628f89d388f8a18d44d1816b0044
 NeedsCompilation: yes
