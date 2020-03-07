@@ -25,7 +25,7 @@ install.packages("Rcpp", repos="https://RcppCore.github.io/drat")
 #### Usage without drat on the shell
 
 ```{sh}
-$ Rscript -e 'install.packages("Rcpp", repos="https://RcppCore.github.io/drat")'
+Rscript -e 'install.packages("Rcpp", repos="https://RcppCore.github.io/drat")'
 ```
 
 
