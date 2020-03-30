@@ -5,3 +5,13 @@ Suggests: tinytest, inline, rbenchmark, pkgKitten (>= 0.1.2)
 License: GPL (>= 2)
 MD5sum: 5fc3782187283fe44b28725992d933ff
 NeedsCompilation: yes
+
+Package: RcppArmadillo
+Version: 0.9.860.1.0
+Depends: R (>= 3.3.0)
+Imports: Rcpp (>= 0.11.0), stats, utils, methods
+LinkingTo: Rcpp
+Suggests: tinytest, Matrix, pkgKitten, reticulate, slam
+License: GPL (>= 2)
+MD5sum: b952a922ad087befea48d768215bed63
+NeedsCompilation: yes
