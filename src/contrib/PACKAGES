@@ -1,9 +1,9 @@
 Package: Rcpp
-Version: 1.0.4.7
+Version: 1.0.4.8
 Imports: methods, utils
 Suggests: tinytest, inline, rbenchmark, pkgKitten (>= 0.1.2)
 License: GPL (>= 2)
-MD5sum: dffe43b733368e1a3d5a6b612a414775
+MD5sum: deee70ade9dd221b997767ff795a919e
 NeedsCompilation: yes
 
 Package: RcppArmadillo
