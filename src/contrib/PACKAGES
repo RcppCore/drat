@@ -122,6 +122,16 @@ MD5sum: 54cbba905ec47b6ed952a722f4ad19bd
 NeedsCompilation: yes
 
 Package: RcppArmadillo
+Version: 0.10.0.1.0
+Depends: R (>= 3.3.0)
+Imports: Rcpp (>= 0.11.0), stats, utils, methods
+LinkingTo: Rcpp
+Suggests: tinytest, Matrix, pkgKitten, reticulate, slam
+License: GPL (>= 2)
+MD5sum: beedf43e913e71cc114c486a6c1604de
+NeedsCompilation: yes
+
+Package: RcppArmadillo
 Version: 0.9.870.2.0
 Depends: R (>= 3.3.0)
 Imports: Rcpp (>= 0.11.0), stats, utils, methods
