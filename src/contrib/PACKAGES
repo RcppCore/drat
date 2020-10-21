@@ -140,3 +140,13 @@ Suggests: tinytest, Matrix, pkgKitten, reticulate, slam
 License: GPL (>= 2)
 MD5sum: c636a914550de3cea030768dc55e44ce
 NeedsCompilation: yes
+
+Package: RcppArmadillo
+Version: 0.10.1.0.1
+Depends: R (>= 3.3.0)
+Imports: Rcpp (>= 0.11.0), stats, utils, methods
+LinkingTo: Rcpp
+Suggests: tinytest, Matrix, pkgKitten, reticulate, slam
+License: GPL (>= 2)
+MD5sum: 007333235ea8a7347b0347a8f2b05237
+NeedsCompilation: yes
