@@ -33,23 +33,30 @@
         <a href="https://github.com/RcppCore/drat/tree/gh-pages/bin/windows/contrib/3.2">see here</a> for (old !) Windows binaries for R 3.2.*.
         
         <h4>Setup</h4>
-        
-        Simply install the <a href="http://cran.rstudio.com/package=drat">drat CRAN package</a>
+
+        <strong>Method One:</strong> Simply install the <a href="http://cran.rstudio.com/package=drat">drat CRAN package</a>
         the  usual way via <code>install.packages("drat", repos="http://cran.rstudio.com")</code>.
 
         <p></p>
         Add one line to your <code>.Rprofile</code> file (or to <code>Rprofile.site</code>):<br>
         <blockquote>
-        <code>drat:::add("RcppCore")</code></br>
+        <code>drat:::add("RcppCore")</code>
         </blockquote>
         
-        <p></p>
         That's it! Now use <code>install.packages()</code> or
-        <code>update.packages()</code> and the ghrr will be considered
+        <code>update.packages()</code> and the Rcpp drat will be considered
         just like the standard repositories for R.
 
         <p></p>
 
+        <strong>Method Two:</strong> A simple one-off approach can also pass
+        the repo information to <code>install.packages()</code> (and,
+        simimlarly, to <code>update.packages()</code>):
+
+        <blockquote>
+        <code>install.packages("Rcpp", repo="https://RcppCore.github.io/drat")</code>
+        </blockquote>
+        
         <h4>More</h4>
         
         You can learn more about <a href="http://dirk.eddelbuettel.com/code/drat.html">drat</a> from the vignettes
