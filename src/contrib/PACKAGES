@@ -267,6 +267,16 @@ License: GPL (>= 2)
 MD5sum: 5828082537f71461859564026ee9921a
 NeedsCompilation: yes
 
+Package: RcppArmadillo
+Version: 0.10.2.2.0
+Depends: R (>= 3.3.0)
+Imports: Rcpp (>= 0.11.0), stats, utils, methods
+LinkingTo: Rcpp
+Suggests: tinytest, Matrix (>= 1.3.0), pkgKitten, reticulate, slam
+License: GPL (>= 2)
+MD5sum: 5c3190c93ce66d4b5f2842352b728472
+NeedsCompilation: yes
+
 Package: RcppEigen
 Version: 0.3.3.9.0
 Imports: Matrix (>= 1.1-0), Rcpp (>= 0.11.0), stats, utils
