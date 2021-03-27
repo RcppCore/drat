@@ -4,13 +4,29 @@ This [drat](http://dirk.eddelbuettel.com/code/drat.html) package repository prov
 
 ### Usage
 
+#### Usage via drat
+
 ```{.r}
 # first add the repo
-drat::add("RcppCore"}
+drat:::add("RcppCore")
 # either install just one or more given packages
-install.package("RcppArmadillo")     
+install.packages("Rcpp")     
 # or update already installed packages
 update.packages()
+```
+
+=======
+#### Usage without drat
+
+```{r}
+# pass the repo info directly to install.packages()
+install.packages("Rcpp", repos="https://RcppCore.github.io/drat")
+```
+
+#### Usage without drat on the shell
+
+```{sh}
+Rscript -e 'install.packages("Rcpp", repos="https://RcppCore.github.io/drat")'
 ```
 
 ### License
