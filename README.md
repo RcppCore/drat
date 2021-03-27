@@ -15,7 +15,6 @@ install.packages("Rcpp")
 update.packages()
 ```
 
-=======
 #### Usage without drat
 
 ```{r}
