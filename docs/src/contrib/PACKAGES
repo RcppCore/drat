@@ -11,7 +11,7 @@ Version: 1.0.7
 Imports: methods, utils
 Suggests: tinytest, inline, rbenchmark, pkgKitten (>= 0.1.2)
 License: GPL (>= 2)
-MD5sum: 0ed1ad0991590da77cb5db29e870bdf0
+MD5sum: 78861b7faeb2a6f0f6c97d51cf326f6e
 NeedsCompilation: yes
 
 Package: RcppArmadillo
