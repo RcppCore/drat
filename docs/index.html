@@ -1,86 +1,76 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE HTML>
+<!-- Derived from Story by HTML5 UP | html5up.net | @ajlkn | Free for personal and commercial use under the CCA 3.0 license (html5up.net/license) -->
 <html>
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-15">
-  <title>drat</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-  <link href="//maxcdn.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.min.css" rel="stylesheet"> <!-- FontAwesome -->
+<title>Rcpp Drat</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+<link rel="stylesheet" href="https://eddelbuettel.github.io/html5-story/assets/css/main.css" />
+<noscript><link rel="stylesheet" href="https://eddelbuettel.github.io/html5-story/assets/css/noscript.css" /></noscript>
 </head>
-<body>
-  <div class="jumbotron">
-    <div class="container">
-      <h2>RcppCore/drat: The GitHub R Repository for Rcpp</h2>
-    </div>
-  </div><!-- /.umbotron -->
-  <div class="row"> &nbsp; </div>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-5">
-        
-        <h4>About</h4>
 
-        This <a href="http://dirk.eddelbuettel.com/code/drat.html">drat</a>
-        repository provides pre-releases and test builds for Rcpp and related
-        packages.
+<body class="is-preload">
 
-        <p></p>
+<!-- Wrapper -->
+<div id="wrapper" class="divided">
 
-        <h4>Current Content</h4>
+<!-- One -->
+<section class="banner style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
+<div class="content">
+  <header>
+  <h2><code>Rcpp drat</code></h2>
+  <p>This drat repository provides pre-releases and test builds for Rcpp and related packages.</p>
+  </header>
+  
+  <p>
+  <strong>Setup Method One:</strong>
+  Simply install the <a href="https://cloud.r-project.org/package=drat">drat CRAN package</a>
+  the  usual way via <code>install.packages("drat", repos="https://cloud.r-project.org")</code> and then add one line to your 
+  <code>.Rprofile</code> file (or to <code>Rprofile.site</code>): <code>drat:::add("RcppCore")</code>. 
+  That's it! Now use <code>install.packages()</code> or   <code>update.packages()</code> and the Rcpp drat will be considered along with the standard repositories for R.
+  </p>
 
-        Please <a href="https://github.com/RcppCore/drat/tree/gh-pages/src/contrib">see here</a> for <strong>source</strong> packages currently in the ghrr repo, and 
-        <a href="https://github.com/RcppCore/drat/tree/gh-pages/bin/windows/contrib/3.2">see here</a> for (old !) Windows binaries for R 3.2.*.
-        
-        <h4>Setup</h4>
+  <p>
+  <strong>Setup Method Two:</strong>
+  A direct approach can pass the repo information to <code>install.packages()</code> (and to <code>update.packages()</code>):
+  <code>install.packages("Rcpp", repo=c("https://RcppCore.github.io/drat", "https://cloud.r-project.org"))</code> 
+  (which also passes the CRAN repo information in case other depencies are needed, add BioConductor or other repos as needed too).
+  </p>
 
-        <strong>Method One:</strong> Simply install the <a href="http://cran.rstudio.com/package=drat">drat CRAN package</a>
-        the  usual way via <code>install.packages("drat", repos="http://cran.rstudio.com")</code>.
+  You can learn more about <a href="https://cloud.r-project.org/package=drat">drat</a> at the 
+  <a href="https://eddelbuettel.github.io/drat">package documentation site</a> which includes several vignettes.
+</div>
+<div class="image">
+  <img src="https://rcppcore.github.io/drat/extras/tom-podmore-ribXsPbE9JU-unsplash.jpeg" alt="photo of lloyds, source is https://unsplash.com/photos/ribXsPbE9JU"/> 
+</div>
+</section>
 
-        <p></p>
-        Add one line to your <code>.Rprofile</code> file (or to <code>Rprofile.site</code>):<br>
-        <blockquote>
-        <code>drat:::add("RcppCore")</code>
-        </blockquote>
-        
-        That's it! Now use <code>install.packages()</code> or
-        <code>update.packages()</code> and the Rcpp drat will be considered
-        just like the standard repositories for R.
+<!-- Footer -->
+<footer class="wrapper style1 align-center">
+<div class="inner">
+  <ul class="icons">
+    <li><a href="https://github.com/eddelbuettel" class="icon brands style1 fa-github"><span class="label">GitHub</span></a></li> 
+    <li><a href="https://twitter.com/eddelbuettel" class="icon brands style1 fa-twitter"><span class="label">Twitter</span></a></li>
+    <!-- <li><a href="#" class="icon brands style1 fa-facebook-f"><span class="label">Facebook</span></a></li> -->
+    <!-- <li><a href="#" class="icon brands style1 fa-instagram"><span class="label">Instagram</span></a></li> -->
+    <li><a href="https://www.linkedin.com/in/dirkeddelbuettel/" class="icon brands style1 fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+    <li><a href="mailto:dirk@eddelbuettel.com" class="icon style1 fa-envelope"><span class="label">Email</span></a></li>
+  </ul>
+  <p>
+   Website based on Story which is &copy; Untitled and part of <a href="https://html5up.net">HTML5 UP</a>.
+   Photos from <a href="https://unsplash.com">unsplash</a> at <a href="https://unsplash.com/photos/ribXsPbE9JU">this link</a>.
+  </p>
+</div>
+</footer>
 
-        <p></p>
+<!-- Scripts -->
+<script src="https://eddelbuettel.github.io/html5-story/assets/js/jquery.min.js"></script>
+<script src="https://eddelbuettel.github.io/html5-story/assets/js/jquery.scrollex.min.js"></script>
+<script src="https://eddelbuettel.github.io/html5-story/assets/js/jquery.scrolly.min.js"></script>
+<script src="https://eddelbuettel.github.io/html5-story/assets/js/browser.min.js"></script>
+<script src="https://eddelbuettel.github.io/html5-story/assets/js/breakpoints.min.js"></script>
+<script src="https://eddelbuettel.github.io/html5-story/assets/js/util.js"></script>
+<script src="https://eddelbuettel.github.io/html5-story/assets/js/main.js"></script>
 
-        <strong>Method Two:</strong> A simple one-off approach can also pass
-        the repo information to <code>install.packages()</code> (and,
-        simimlarly, to <code>update.packages()</code>):
-
-        <blockquote>
-        <code>install.packages("Rcpp", repo="https://RcppCore.github.io/drat")</code>
-        </blockquote>
-        
-        <h4>More</h4>
-        
-        You can learn more about <a href="http://dirk.eddelbuettel.com/code/drat.html">drat</a> from the vignettes
-        <a href="http://eddelbuettel.github.io/DratForPackageUsers.html">Drat for Package Users</a> and
-        <a href="http://eddelbuettel.github.io/DratForPackageAuthors.html">Drat for Package Authors</a>.
-      </div>
-      <div class="col-md-6">
-        <center>
-        <img src="https://avatars3.githubusercontent.com/u/11597821?v=3&amp;s=400"  />
-        </center>
-      </div>
-    </div>
-   </div>
-   <div class="row"> &nbsp; </div>
-   <footer class="footer">
-     <div class="container">
-       <a href="http://twitter.com/eddelbuettel"><i class="icon-twitter"></i></a>
-       <a href="https://plus.google.com/+DirkEddelbuettel"><i class="icon-google-plus"></i></a>
-       <a href="https://github.com/eddelbuettel"><i class="icon-github"></i></a>
-       <!-- <a href="http://stackoverflow.com/users/143305/dirk-eddelbuettel"><i class="icon-stackexchange"></i></a> -->
-       <a href="http://www.linkedin.com/in/dirkeddelbuettel/"><i class="icon-linkedin"></i></a>
-       <a href="http://dirk.eddelbuettel.com"><i class="icon-home"></i>
-       <a href="http://dirk.eddelbuettel.com/blog/index.rss"><i class="icon-rss"></i></a>
-     </div>
-   </footer>
 </body>
 </html>
