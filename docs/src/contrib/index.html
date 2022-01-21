@@ -19,28 +19,25 @@
 <div class="content">
   <header>
   <h2><code>Rcpp drat</code></h2>
-  <p>This drat repository provides pre-releases and test builds for Rcpp and related packages.</p>
+  <p>Pre-release and test build repository for Rcpp and related packages.</p>
   </header>
   
-  <p>
-  <strong>Method One:</strong>
-  First install the <a href="https://cloud.r-project.org/package=drat">drat CRAN package</a>
-  via <code>install.packages("drat")</code> (or via <code>install.packages("drat", repos="https://cloud.r-project.org")</code>). Second add one line to your 
-  <code>.Rprofile</code> file (or to <code>Rprofile.site</code>): <code>drat:::add("RcppCore")</code>. 
-  That's it: <code>install.packages()</code> or
-  <code>update.packages()</code> will now consider the drat repo  along with the standard repo.
-  </p>
-
-  <p>
-  <strong>Method Two:</strong>
-  Pass repo to <code>install.packages()</code>:
-  <code>install.packages("Rcpp", repos=c("https://RcppCore.github.io/drat", "https://cloud.r-project.org"))</code>. 
-  This also passes on the CRAN repo information in case other depencies are
-  needed, one can add BioConductor or other repos as needed too. Works
-  similarly for <code>update.packages()</code>.
-  </p>
-
-  You can learn more about <a href="https://cloud.r-project.org/package=drat">drat</a> at the 
+    <strong>Method One:</strong>
+      Install the <a href="https://cloud.r-project.org/package=drat">drat CRAN package</a> via
+      <code>install.packages("drat")</code>, or via <code>install.packages("drat", repos="https://cloud.r-project.org")</code>. Then add <code>drat:::add("RcppCore")</code> to your 
+      <code>.Rprofile</code> file (or to <code>Rprofile.site</code>) and you
+      are done: <code>install.packages()</code> or <code>update.packages()</code> will now consider the drat repo  along with the standard repo.
+    <p></p>
+  
+    <strong>Method Two:</strong>
+      Pass the repo information directly to <code>install.packages()</code>:
+      <code>install.packages("Rcpp", repos=c("https://RcppCore.github.io/drat", "https://cloud.r-project.org"))</code>. 
+      This also passes on the CRAN repo information in case other dependencies are
+      needed; one can add BioConductor or other repos as needed. And it works
+      the same for <code>update.packages()</code>.
+    <p></p>
+  
+  Learn more about <a href="https://cloud.r-project.org/package=drat">drat</a> at the 
   <a href="https://eddelbuettel.github.io/drat">package documentation site</a> which includes several vignettes.
 </div>
 <div class="image">
