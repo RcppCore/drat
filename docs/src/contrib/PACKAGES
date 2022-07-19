@@ -22,6 +22,14 @@ License: GPL (>= 2)
 MD5sum: 78861b7faeb2a6f0f6c97d51cf326f6e
 NeedsCompilation: yes
 
+Package: Rcpp
+Version: 1.0.9
+Imports: methods, utils
+Suggests: tinytest, inline, rbenchmark, pkgKitten (>= 0.1.2)
+License: GPL (>= 2)
+MD5sum: eb2f3e289f77a5e368ded6ef73c7a497
+NeedsCompilation: yes
+
 Package: RcppArmadillo
 Version: 0.10.7.1.0
 Depends: R (>= 3.3.0)
