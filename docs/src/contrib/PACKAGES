@@ -7,6 +7,14 @@ MD5sum: 4fce064800a9c6590df94e46e0ae3f80
 NeedsCompilation: yes
 
 Package: Rcpp
+Version: 1.0.9.3
+Imports: methods, utils
+Suggests: tinytest, inline, rbenchmark, pkgKitten (>= 0.1.2)
+License: GPL (>= 2)
+MD5sum: 51d6935dae0dec021794bed1214b5094
+NeedsCompilation: yes
+
+Package: Rcpp
 Version: 1.0.9
 Imports: methods, utils
 Suggests: tinytest, inline, rbenchmark, pkgKitten (>= 0.1.2)
