@@ -1,4 +1,12 @@
 Package: Rcpp
+Version: 1.0.10.1
+Imports: methods, utils
+Suggests: tinytest, inline, rbenchmark, pkgKitten (>= 0.1.2)
+License: GPL (>= 2)
+MD5sum: 8f3e59ff7b00c61e346c0591556678c3
+NeedsCompilation: yes
+
+Package: Rcpp
 Version: 1.0.9.4
 Imports: methods, utils
 Suggests: tinytest, inline, rbenchmark, pkgKitten (>= 0.1.2)
