@@ -1,37 +1,3 @@
-Package: Rcpp
-Version: 1.0.10.1
-Imports: methods, utils
-Suggests: tinytest, inline, rbenchmark, pkgKitten (>= 0.1.2)
-License: GPL (>= 2)
-MD5sum: 8f3e59ff7b00c61e346c0591556678c3
-NeedsCompilation: yes
-
-Package: Rcpp
-Version: 1.0.10.2
-Imports: methods, utils
-Suggests: tinytest, inline, rbenchmark, pkgKitten (>= 0.1.2)
-License: GPL (>= 2)
-MD5sum: 97fa7e6a419d5daba954cfda4c22341c
-NeedsCompilation: yes
-
-Package: Rcpp
-Version: 1.0.10.3
-Imports: methods, utils
-Suggests: tinytest, inline, rbenchmark, pkgKitten (>= 0.1.2)
-License: GPL (>= 2)
-MD5sum: 58d86f70af9fcc82213e3e403d2e089b
-NeedsCompilation: yes
-
-Package: RcppArmadillo
-Version: 0.11.4.2.0
-Depends: R (>= 3.3.0)
-Imports: Rcpp (>= 0.11.0), stats, utils, methods
-LinkingTo: Rcpp
-Suggests: tinytest, Matrix (>= 1.3.0), pkgKitten, reticulate, slam
-License: GPL (>= 2)
-MD5sum: bc6094140834e1b0be8063ee5b1db5da
-NeedsCompilation: yes
-
 Package: RcppArmadillo
 Version: 0.12.6.0.0
 Depends: R (>= 3.3.0)
@@ -40,6 +6,16 @@ LinkingTo: Rcpp
 Suggests: tinytest, Matrix (>= 1.3.0), pkgKitten, reticulate, slam
 License: GPL (>= 2)
 MD5sum: 7cb220c1755bffcd990cb378078e1283
+NeedsCompilation: yes
+
+Package: RcppArmadillo
+Version: 0.12.6.0.1
+Depends: R (>= 3.3.0)
+Imports: Rcpp (>= 0.11.0), stats, utils, methods
+LinkingTo: Rcpp
+Suggests: tinytest, Matrix (>= 1.3.0), pkgKitten, reticulate, slam
+License: GPL (>= 2)
+MD5sum: c0159c9d01de012767b1d42df5f560a2
 NeedsCompilation: yes
 
 Package: RcppEigen
