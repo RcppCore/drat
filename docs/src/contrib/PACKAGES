@@ -30,6 +30,14 @@ License: GPL (>= 2)
 MD5sum: 632472fe8a0b0ccaf6c1726ec5b988de
 NeedsCompilation: yes
 
+Package: Rcpp
+Version: 1.0.11.6
+Imports: methods, utils
+Suggests: tinytest, inline, rbenchmark, pkgKitten (>= 0.1.2)
+License: GPL (>= 2)
+MD5sum: 160440405e930ac360ce0b1ae2673f85
+NeedsCompilation: yes
+
 Package: RcppEigen
 Version: 0.3.3.99.0
 Imports: Matrix (>= 1.1-0), Rcpp (>= 0.11.0), stats, utils
